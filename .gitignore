@@ -1,0 +1,25 @@
+# Ignora o ambiente virtual
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos de configuração pessoais
+.env
+*.env
+
+# VSCode ou IDEs
+.vscode/
+.idea/
+
+# Windows/macOS
+Thumbs.db
+.DS_Store
+
+# Arquivos de cache do Jupyter Notebook
+.ipynb_checkpoints/
