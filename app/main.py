@@ -13,6 +13,9 @@ from app.scraper.processamento_sem_classificacao import (
 from app.scraper.processamento_uvas_de_mesa import scrape_processamento_uvas_de_mesa
 from app.scraper.processamento_viniferas import scrape_processamento_viniferas
 
+# Comercialização
+from app.scraper.comercializao import scrape_comercializacao
+
 # Importação
 from app.scraper.importacao_espumantes import scrape_importacao_espumantes
 from app.scraper.importacao_suco_de_uva import scrape_importacao_suco_de_uva
@@ -54,6 +57,12 @@ def get_scraped_uvas_de_mesa(ano: int = Query(...)):
 @app.get("/scrape/processamento/viniferas")
 def get_scraped_viniferas(ano: int = Query(...)):
     return {"status": "ok", "dados": scrape_processamento_viniferas(ano)}
+
+
+# Comercialização
+@app.get("/scrape/comercializacao")
+def get_scraped_comercializacao(ano: int = Query(...)):
+    return {"status": "ok", "dados": scrape_comercializacao(ano)}
 
 
 # Importação
