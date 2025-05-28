@@ -31,7 +31,6 @@ from app.scraper.exportacao_vinhos_de_mesa import scrape_exportacao_vinhos_de_me
 
 app = FastAPI()
 
-
 @app.get("/")
 def read_root():
     return {"message": "API do VITNI Embrapa está online!"}
