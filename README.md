@@ -34,7 +34,7 @@ API-VITNI_EMBRAPA/
 │   │   ├── models.py  
 │   │   └── security.py  
 │   └── main.py                # Ponto de entrada da aplicação  
-├── docs/                      # Documentação adicional (ex: OpenAPI, exemplos)  
+├── docs/                      # Documentação adicional (pdfs,fotos)
 ├── venv/                      # Ambiente virtual  
 ├── requirements.txt           # Dependências do projeto  
 ├── .gitignore  
@@ -44,19 +44,19 @@ API-VITNI_EMBRAPA/
 
 ## 🧭 Fluxo de Funcionamento
 
-[Cliente] --> [Requisição HTTP] --> [FastAPI Router]
-|
-v
-[Função Endpoint / Rota Específica]
-|
-v
-[Processamento]
-|
-v
-[Resposta JSON (status + dados)]
-|
-v
-[Cliente]
+[Cliente] --> [Requisição HTTP] --> [FastAPI Router]  
+|  
+v  
+[Função Endpoint / Rota Específica]  
+|  
+v  
+[Processamento]  
+|  
+v  
+[Resposta JSON (status + dados)]  
+|  
+v  
+[Cliente]  
 
 ## 🧪 Documentação Interativa
 
