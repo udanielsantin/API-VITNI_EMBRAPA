@@ -37,8 +37,8 @@ API-VITNI_EMBRAPA/
 ├── docs/                      # Documentação adicional (pdfs,fotos)
 ├── venv/                      # Ambiente virtual  
 ├── requirements.txt           # Dependências do projeto  
-├── .gitignore  
-└── README.md  
+├── README.md  
+└── test_api.ipynb 
 
 
 
