@@ -17,12 +17,29 @@ API desenvolvida com **FastAPI** para atender ao projeto VITNI da EMBRAPA. Esta 
 
 API-VITNI_EMBRAPA/  
 ├── app/  
-│ ├── main.py # Ponto de entrada da aplicação  
-│ ├── routers/ # Arquivos de rotas/endpoints  
-│ ├── services/ # Lógica de negócio  
-│ └── models/ # Definições de schemas/pydantic  
-├── requirements.txt  
+│   ├── routes/           # Rotas da API organizadas por domínio(FastAPI)  
+│   │   ├── comercializacao_routes.py  
+│   │   ├── exportacao_routes.py  
+│   │   ├── importacao_routes.py  
+│   │   ├── processamento_routes.py  
+│   │   └── producao_routes.py  
+│   ├── scraper/               # Módulos de raspagem de dados  
+│   │   ├── exportacao/  
+│   │   ├── importacao/  
+│   │   ├── processamento/  
+│   │   ├── comercializacao.py  
+│   │   └── producao.py  
+│   ├── utils/                 # Utilitários e autenticação  
+│   │   ├── auth.py  
+│   │   ├── models.py  
+│   │   └── security.py  
+│   └── main.py                # Ponto de entrada da aplicação  
+├── docs/                      # Documentação adicional (ex: OpenAPI, exemplos)  
+├── venv/                      # Ambiente virtual  
+├── requirements.txt           # Dependências do projeto  
+├── .gitignore  
 └── README.md  
+
 
 
 ## 🧭 Fluxo de Funcionamento
