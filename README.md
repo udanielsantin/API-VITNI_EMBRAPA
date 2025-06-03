@@ -11,18 +11,18 @@ API desenvolvida com **FastAPI** para atender ao projeto VITNI da EMBRAPA. Esta 
 
 ## Fluxograma da Arquitetura da API
 
-![Fluxograma da API](fluxo_arquitetura.png)
+![Fluxograma da API](docs/fluxo_arquitetura.png)
 
 ## 📁 Estrutura do Projeto
 
-API-VITNI_EMBRAPA/
-├── app/
-│ ├── main.py # Ponto de entrada da aplicação
-│ ├── routers/ # Arquivos de rotas/endpoints
-│ ├── services/ # Lógica de negócio
-│ └── models/ # Definições de schemas/pydantic
-├── requirements.txt
-└── README.md
+API-VITNI_EMBRAPA/  
+├── app/  
+│ ├── main.py # Ponto de entrada da aplicação  
+│ ├── routers/ # Arquivos de rotas/endpoints  
+│ ├── services/ # Lógica de negócio  
+│ └── models/ # Definições de schemas/pydantic  
+├── requirements.txt  
+└── README.md  
 
 
 ## 🧭 Fluxo de Funcionamento
@@ -43,7 +43,7 @@ v
 
 ## 🧪 Documentação Interativa
 
-Swagger UI: http://127.0.0.1:8000/docs
+Swagger UI: https://api-vitni-embrapa.onrender.com/docs
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias, sugestões ou correções.
