@@ -62,6 +62,10 @@ v
 
 Swagger UI: https://api-vitni-embrapa.onrender.com/docs
 
+## 🧪 Testes da API com Notebook
+
+Este repositório inclui um notebook Jupyter chamado 'test_api.ipynb' que pode ser utilizado para testar todos os endpoints da API pública de forma prática e interativa.
+
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias, sugestões ou correções.
 
