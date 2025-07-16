@@ -7,7 +7,7 @@ API desenvolvida com **FastAPI** para atender ao projeto VITNI da EMBRAPA. Esta 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - Uvicorn (servidor ASGI)
 - Python 3.x
-- [BeutifulSoup, Pandas]
+- [Requests, BeutifulSoup, Pandas]
 
 ## Fluxograma da Arquitetura da API
 
